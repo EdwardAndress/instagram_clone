@@ -37,12 +37,15 @@ describe 'posts' do
 			visit '/posts'
 			click_link 'New post'
 			fill_in 'Title', with: 'Another another post'
-			attach_file 'Picture', Rails.root.join('spec/images/BonjourViolaine.jpg')
+			attach_file 'Picture', Rails.root.join('spec/images/smallversion.jpg')
 			click_button 'Create post'
 
 			expect(page).to have_css('img.uploaded_image')
 		end
 
+	end
+
+	context 'can be tagged' do 
 	end
 
 end
