@@ -43,9 +43,16 @@ describe 'posts' do
 			expect(page).to have_css('img.uploaded_image')
 		end
 
+		it 'shows no image if no file is attached' do 
+			visit '/posts'
+			click_link 'New post'
+			fill_in 'Title', with: 'No image attached'
+			fill_in 'Tags', with: 'Nada'
+			click_button 'Create post'
+			expect(page).not_to have_css('img.uploaded_image')
+		end
 	end
 
-	context 'can be tagged' do 
-	end
+	
 
 end

@@ -24,3 +24,17 @@
 	position: relative;
 	left: 5%;
 }
+
+#tag {
+	text-decoration: none;
+	position: relative;
+	padding: 5px;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius: 5px;
+}
+
+#tag-container {
+	position: relative;
+	left: 10%;
+	margin: 20px auto;
+}
