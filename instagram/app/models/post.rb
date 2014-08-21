@@ -3,7 +3,7 @@ class Post < ActiveRecord::Base
 	has_and_belongs_to_many :tags
 
 	has_attached_file :picture,
-	styles: { medium: "300x300#"},
+	styles: { medium: "400x400#"},
 	:storage => :s3,
   	:s3_credentials => {
     	:bucket => 'andress_instagram',
