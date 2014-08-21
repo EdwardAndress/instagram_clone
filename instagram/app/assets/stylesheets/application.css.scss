@@ -17,7 +17,7 @@
 @import "bootstrap";
 
 body {
-	margin: 80px;
+	margin: 90px;
 	background: linear-gradient(white, lightgrey);
 	min-height: 800px;
 }
@@ -35,4 +35,9 @@ body {
 .newpost {
 	position: relative;
 	top: 10%;
+}
+
+header.header{
+	height: 70px;
+	opacity: 0.97;
 }

@@ -7,6 +7,25 @@
 	margin: auto;
 }
 
-.post img {
+.post {
+	
+	h3 {
+		margin: 0;
+	}
+
+	h5 {
+		margin-left: 10px;
+	} 
+
+	img {
 		max-width: 100%;
 	}
+
+	#tag-container {
+		min-height: 20px;
+	}
+
+	.tag {
+		margin-left: 10px;
+	}
+}

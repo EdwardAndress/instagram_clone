@@ -14,16 +14,14 @@
 
   <body>
 
-    <div class="container">
-      <div class="header navbar-fixed-top">
+    
+      <header class="header navbar-fixed-top">
         <ul class="nav nav-pills pull-right">
           <li class="active"><%= link_to 'Home', posts_path %></li>
           <li><%= link_to 'New post', new_post_path %></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Instagram</h3>
-      </div>
+        <h3 class="text-muted navbar-brand">Instagram</h3>
+      </header>
 
       <%= yield %>
 
@@ -31,7 +29,7 @@
         <p>&copy; Company 2014</p>
       </div>
 
-    </div> <!-- /container -->
+   <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
