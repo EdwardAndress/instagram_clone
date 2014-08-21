@@ -32,14 +32,22 @@ describe 'tagging posts' do
 	  	before do 
 	  		add_post('Post one', 'gobanana')
 	  		add_post('Post two', 'boom')
+        add_post('Post three', 'gobanana, libtech')
 	  	end 
 
   		it 'when the user clicks on a tag' do 
   			visit '/posts'
-  			click_link 'gobanana'
-  			expect(page).to have_link('gobanana')
-  			expect(page).not_to have_content('boom')
+  			click_link 'libtech'
+        expect(page).to have_css 'h1', text: 'Posts tagged with libtech'
+        expect(page).to have_link('libtech')
+  			expect(page).not_to have_link('boom')
   		end
+
+      it 'are accessible via pretty URLs' do 
+        visit '/tags/gobanana'
+        expect(page).to have_content('gobanana')
+      end
+
   	end
 
 end

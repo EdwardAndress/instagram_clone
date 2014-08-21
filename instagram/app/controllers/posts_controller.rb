@@ -14,8 +14,4 @@ class PostsController < ApplicationController
 		redirect_to '/posts'
 	end
 
-	def show
-		@posts = Post.find_by(params[:id])
-	end
-
 end

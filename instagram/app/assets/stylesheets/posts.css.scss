@@ -2,39 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.uploaded_image {
-	/*max-width: 250px;*/
-	position: relative;
-	left: 4%;
-	bottom: 2%;
-	padding: 10px;
-	border: solid black 1px;
-	border-radius: 5px;
-	box-shadow: 3px 3px 5px #888888;
-}
-
 .post {
-	border: solid black 2px;
-	border-radius: 5px;
-	width: 350px;
 	list-style-type: none;
+	margin: auto;
 }
 
-.post h3 {
-	position: relative;
-	left: 5%;
-}
-
-#tag {
-	text-decoration: none;
-	position: relative;
-	padding: 5px;
-	box-shadow: 3px 3px 5px #888888;
-	border-radius: 5px;
-}
-
-#tag-container {
-	position: relative;
-	left: 10%;
-	margin: 20px auto;
-}
+.post img {
+		max-width: 100%;
+	}

@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	margin: 80px;
+	background: linear-gradient(white, lightgrey);
+	min-height: 800px;
+}
+
+.text-muted {
+	position: relative;
+	left: 5%;
+}
+
+.navbar-fixed-top {
+	background-color: white;
+	padding: 5px;
+}
+
+.newpost {
+	position: relative;
+	top: 10%;
+}

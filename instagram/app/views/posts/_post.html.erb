@@ -1,0 +1,14 @@
+<ul>
+	<li class='post col-md-4 col-sm-6'>
+		<h3><%= post.title %></h3>
+		<% if post.picture.present? %>
+			<%= image_tag post.picture.url(:medium), class: 'uploaded_image' %>
+		<% end %>
+		<section id='tag-container'>
+			<% post.tags.each do |tag| %>
+				<%= link_to tag.text, tag_path(tag.text), class: 'tag'%>
+			<% end %>
+		</section>
+		<h4><em>Posted <%= time_ago_in_words(post.created_at) %> ago</em></h4>
+	</li>
+</ul>	

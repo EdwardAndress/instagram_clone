@@ -4,4 +4,8 @@ class Tag < ActiveRecord::Base
 
 	# validates :text, length: { in: 3..20 }
 
+	def to_param
+		text
+	end
+
 end
