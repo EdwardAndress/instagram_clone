@@ -2,6 +2,11 @@ require 'rails_helper'
 
 describe 'posts' do 
 
+	 before do
+    	eddie = User.create(email: 'eddie_andress@hotmail.com', password: '12345678', password_confirmation: '12345678')
+    	login_as eddie
+  	end 
+
 	context 'no posts' do
 
 		it 'shows a message to indicate a lack of posts' do

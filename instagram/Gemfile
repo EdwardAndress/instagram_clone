@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
+gem 'simplecov', :require => false, :group => :test
 
-
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
@@ -31,6 +32,7 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'database_cleaner'
+	gem 'warden'
 end
 
 gem 'paperclip', github: 'thoughtbot/paperclip'

@@ -1,6 +1,11 @@
 require 'rails_helper'
 
-describe 'tagging posts' do 
+describe 'tagging posts' do
+
+  before do
+    eddie = User.create(email: 'eddie_andress@hotmail.com', password: '12345678', password_confirmation: '12345678')
+    login_as eddie
+  end 
 
 	it 'tags are displayed under posts' do
 

@@ -19,15 +19,20 @@
 
 	img {
 		max-width: 100%;
-		position: relative;
-		left: 4%;
+		margin: auto;
+		display: block;
 	}
 
 	#tag-container {
 		min-height: 20px;
+		margin-left: 20px;
 	}
 
 	.tag {
+		color: white;
 		margin-left: 10px;
+		border-radius: 5px;
+		padding: 5px;
+		background: #428bca;
 	}
 }
