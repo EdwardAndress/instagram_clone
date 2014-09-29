@@ -6,6 +6,7 @@
   * Users can sign up
   * When signed in, users can add images
   * Users can add tags to their own images
+  * Users can associate their images with an address
   * Images can be filtered using tags
 
 ####Skills / lessons learnt:
