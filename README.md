@@ -9,12 +9,15 @@
   * Images can be filtered using tags
 
 ####Skills / lessons learnt:
- * Integration testing with Capybara and Cucumber
- * Using DataMapper and PostgresQL to set up and manage relational databases
- * Basic user account management and security
+ * Uploading images with Paperclip
+ * Hosting via Amazon S3
+ * Twitter Bootstrap
+ * Geocoding
+ * Managing private keys
 
 ####Technologies used:
  * Ruby, CSS, HTML5
+ * Twitter Bootstrap
  * Rails
  * RSpec
  * Capybara
@@ -22,4 +25,8 @@
  * Active Record
  * Amazon 
  * Bundler
+ * Paperclip
+ * Devise
  * PostgresQL
+ * Amazon Web Services
+ * GMaps.js
