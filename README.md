@@ -31,3 +31,21 @@
  * PostgresQL
  * Amazon Web Services
  * GMaps.js
+
+####Set it up:
+```sh
+$ git clone https://github.com/EdwardAndress/makers_academy_week9.git
+$ bundle install
+```
+
+####Test it:
+```sh
+$ cd makers_academy_week9
+$ rspec
+```
+
+####Run it:
+```sh
+$ cd makers_academy_week9
+$ rackup
+```
