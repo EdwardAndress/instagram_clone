@@ -1,0 +1,9 @@
+<main class='container'>
+	<% if @posts.any? %>
+		<section class="row">
+			<%= render @posts %>
+		</section>
+		<% else %>
+		<h3>No posts yet</h3>
+	<% end %>
+</main>

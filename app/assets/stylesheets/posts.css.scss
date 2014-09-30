@@ -1,0 +1,38 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.post {
+	list-style-type: none;
+	margin: auto;
+}
+
+.post {
+	
+	h3 {
+		margin: 0;
+	}
+
+	h5 {
+		margin-left: 10px;
+	} 
+
+	img {
+		max-width: 100%;
+		margin: auto;
+		display: block;
+	}
+
+	#tag-container {
+		min-height: 20px;
+		margin-left: 20px;
+	}
+
+	.tag {
+		color: white;
+		margin-left: 10px;
+		border-radius: 5px;
+		padding: 5px;
+		background: #428bca;
+	}
+}
