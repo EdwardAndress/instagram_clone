@@ -1,4 +1,4 @@
-###Makers Academy Week 9: Instagram Clone
+###Makers Academy Week 9: Instagram Clone - Work In Progress!
 -----------------------------------------
 
 ####Specification:
