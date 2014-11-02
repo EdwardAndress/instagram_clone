@@ -1,4 +1,4 @@
-###Makers Academy Week 9: Instagram Clone - Work In Progress!
+###[Makers Academy] Week 9: Instagram Clone - Work In Progress!
 -----------------------------------------
 
 ####Specification:
@@ -49,3 +49,4 @@ $ rspec
 $ cd makers_academy_week9
 $ rackup
 ```
+[Makers Academy]: http://makersacademy.com
